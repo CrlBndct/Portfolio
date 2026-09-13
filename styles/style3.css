@@ -1,0 +1,57 @@
+#skills > h1{
+    font-size: 150px;
+    position: absolute;
+    top: 50px;
+    left: 100px;
+    color: #36ADA3;
+    text-shadow: -10px 10px 10px black;
+}
+
+#stack{
+    position: absolute;
+    top: 50%;
+    left: 15%;
+    width: 80%;
+    height: 25%;
+    padding: 0;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: -10px 10px 10px 0px;
+}
+
+#stack > #tech{
+    display: flex;
+    list-style-type: none;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 0;
+    margin: 0;
+    overflow-x: auto;
+    scrollbar-width: none;
+}
+
+#tech::-webkit-scrollbar{
+    display: none;
+}
+
+#tech > li{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    flex: 0 0 auto; 
+}
+
+#tech > li > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    box-shadow: -5px 5px 10px 0px;
+}
+
+#tech > li, #tech > li > img{
+    border-radius: 20px;
+}

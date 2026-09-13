@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box ;
+}
+
+body{
+    background: linear-gradient(135deg, #36ADA3, #2F578A, #232F72, #121358);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#nav-bar{
+    position: fixed;
+    top: 10px;
+    left: 25%;
+    z-index: 10000;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    background-color: #232F72;
+    border-radius: 20px;
+    width: 800px;
+    padding: 0;
+    box-shadow: 3px 6px 15px 3px;
+}
+
+#nav-bar li{
+    display: inline;
+    margin: 10px;
+    font-size: 20px;
+    color: #36ADA3;
+    border-radius: 10px;
+    transition: all 0.3s ease, transform 0.2s ease-in-out;
+}
+
+#nav-bar, li{
+    padding: 10px;
+}
+
+#nav-bar li:hover{
+    background-color: #36ADA3;
+    color: #232F72;
+}
+
+.container{
+    background-color: transparent;
+    box-sizing: border-box;
+    /*border: 1px solid black;*/
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+#heroSect > #profile{
+    position: absolute;
+    left: 200px;
+    top: 150px;
+    border-radius: 10px 50px 10px 50px;
+    box-shadow: 20px 10px 30px 5px #121358;
+}
+
+#heroSect > h1{
+    position: absolute;
+    left: 550px;
+    top: 150px;
+    font-size: 50px;
+    color: #36ADA3;
+    border-left-style: solid;
+    border-width: 10px;
+    border-color: #232F72;
+    background-color: #2F578A;
+}
+
+#heroSect > h2{
+    position: absolute;
+    left: 550px;
+    top: 230px;
+    color: #121358;
+}
+
