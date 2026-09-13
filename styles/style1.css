@@ -25,20 +25,20 @@ body{
     box-shadow: 3px 6px 15px 3px;
 }
 
-#nav-bar li{
+#nav-bar > li, a{
     display: inline;
-    margin: 10px;
+    text-decoration: none;
     font-size: 20px;
     color: #36ADA3;
     border-radius: 10px;
     transition: all 0.3s ease, transform 0.2s ease-in-out;
 }
 
-#nav-bar, li{
+#nav-bar, li, a{
     padding: 10px;
 }
 
-#nav-bar li:hover{
+#nav-bar > li a:hover{
     background-color: #36ADA3;
     color: #232F72;
 }
@@ -78,4 +78,5 @@ body{
     top: 230px;
     color: #121358;
 }
+
 
